@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: $main-font;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: $color-primary;
+}
+ul,
+ol {
+  list-style: none;
+}
